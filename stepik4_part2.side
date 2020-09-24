@@ -1,0 +1,174 @@
+{
+  "id": "4e2b6efb-2263-472b-8891-52b70a9d398d",
+  "version": "2.0",
+  "name": "stepik4_part2",
+  "url": "http://selenium1py.pythonanywhere.com",
+  "tests": [{
+    "id": "df406cbf-955f-42b7-abaf-1ca18b5626b8",
+    "name": "sign_up",
+    "commands": [{
+      "id": "6544cd5c-ac55-4138-a500-95889ad8bead",
+      "comment": "",
+      "command": "open",
+      "target": "/fr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8737ce4c-84ee-4c67-950a-9a49aa53eb74",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1232x665",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76e83b87-9585-4c69-8d0a-0bf7a90cab09",
+      "comment": "",
+      "command": "click",
+      "target": "id=logout_link",
+      "targets": [
+        ["id=logout_link", "id"],
+        ["linkText=Déconnexion", "linkText"],
+        ["css=#logout_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Déconnexion')]", "xpath:link"],
+        ["xpath=//a[@id='logout_link']", "xpath:attributes"],
+        ["xpath=//div[@id='top_page']/div[2]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/fr/accounts/logout/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Déconnexion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "513f6026-1fba-43fc-98f9-d91d4b82f92d",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_link",
+      "targets": [
+        ["id=login_link", "id"],
+        ["linkText=Connexion / Inscription", "linkText"],
+        ["css=#login_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Connexion / Inscription')]", "xpath:link"],
+        ["xpath=//a[@id='login_link']", "xpath:attributes"],
+        ["xpath=//div[@id='top_page']/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/fr/accounts/login/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Connexion / Inscription')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5da68600-d078-4105-a7d6-a92b788c4678",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_registration-email",
+      "targets": [
+        ["id=id_registration-email", "id"],
+        ["name=registration-email", "name"],
+        ["css=#id_registration-email", "css:finder"],
+        ["xpath=//input[@id='id_registration-email']", "xpath:attributes"],
+        ["xpath=//form[@id='register_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14759c0e-5ee0-4a2f-a0b2-6807e0df5417",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_registration-email",
+      "targets": [
+        ["id=id_registration-email", "id"],
+        ["name=registration-email", "name"],
+        ["css=#id_registration-email", "css:finder"],
+        ["xpath=//input[@id='id_registration-email']", "xpath:attributes"],
+        ["xpath=//form[@id='register_form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/input", "xpath:position"]
+      ],
+      "value": "fhddjtytuk@cvcv.com"
+    }, {
+      "id": "2e958741-dc69-4148-a2b2-5a797c89bcb9",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_registration-password1",
+      "targets": [
+        ["id=id_registration-password1", "id"],
+        ["name=registration-password1", "name"],
+        ["css=#id_registration-password1", "css:finder"],
+        ["xpath=//input[@id='id_registration-password1']", "xpath:attributes"],
+        ["xpath=//form[@id='register_form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93a4ca81-fb0b-4e2c-a517-47ae5db988ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_registration-password1",
+      "targets": [
+        ["id=id_registration-password1", "id"],
+        ["name=registration-password1", "name"],
+        ["css=#id_registration-password1", "css:finder"],
+        ["xpath=//input[@id='id_registration-password1']", "xpath:attributes"],
+        ["xpath=//form[@id='register_form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "12_12_1234"
+    }, {
+      "id": "e485cc84-35cd-4299-865d-1e6794d5aadb",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_registration-password2",
+      "targets": [
+        ["id=id_registration-password2", "id"],
+        ["name=registration-password2", "name"],
+        ["css=#id_registration-password2", "css:finder"],
+        ["xpath=//input[@id='id_registration-password2']", "xpath:attributes"],
+        ["xpath=//form[@id='register_form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b355a13e-832e-45a6-9454-7dbbf827acbf",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_registration-password2",
+      "targets": [
+        ["id=id_registration-password2", "id"],
+        ["name=registration-password2", "name"],
+        ["css=#id_registration-password2", "css:finder"],
+        ["xpath=//input[@id='id_registration-password2']", "xpath:attributes"],
+        ["xpath=//form[@id='register_form']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "12_12_1234"
+    }, {
+      "id": "9a9f22da-8f3e-4a9b-8625-deec71ac7069",
+      "comment": "",
+      "command": "click",
+      "target": "name=registration_submit",
+      "targets": [
+        ["name=registration_submit", "name"],
+        ["css=#register_form > .btn", "css:finder"],
+        ["xpath=//button[@name='registration_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='register_form']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Inscription')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a99048b6-9024-47f9-82a4-741a948b2a1f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c9fde4a8-15a0-4f1c-ac3d-90fe19dac79e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["df406cbf-955f-42b7-abaf-1ca18b5626b8"]
+  }],
+  "urls": ["http://selenium1py.pythonanywhere.com/"],
+  "plugins": []
+}
